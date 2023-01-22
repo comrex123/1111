@@ -4,3 +4,6 @@
 	bare = false
 	logallrefupdates = true
 	worktree = /opt/ruby_git/cve_chec123k
+[remote "origin"]
+	url = https://comrex123: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@github.com/comrex123/new_repo.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
