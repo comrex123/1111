@@ -1,4 +1,8 @@
+ENV['http_proxy'] = "http://10.0.0.4:8080"
+ENV['https_proxy'] = "http://10.0.0.4:8080"
+
 require 'git'
+# your script here
 
 # Specify the path to your local directory
 directory_path = '/opt/ruby_git/cve_chec123k'
@@ -12,7 +16,7 @@ g.add
 # Commit the added files
 g.commit("Initial commit")
 
-remote_url = 'https://comrex123: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@github.com/comrex123/new_1repo.git'
+remote_url = 'https://comrex123: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@github.com/comrex123/new_1repo.git'
 
 # Add the remote repository to your local repository
 g.add_remote('origin1234', remote_url)
