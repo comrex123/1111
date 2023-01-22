@@ -12,10 +12,10 @@ g.add
 # Commit the added files
 g.commit("Initial commit")
 
-remote_url = 'https://github.com/comrex123/new_repo.git'
+remote_url = 'https://comrex123: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@github.com/comrex123/new_repo.git'
 
-# Create a new remote repository on GitHub
-g.create_remote('origin', remote_url)
+# Add the remote repository to your local repository
+g.add_remote('origin', remote_url)
 
 # Push the local repository to the remote repository
 g.push('origin', 'master')
