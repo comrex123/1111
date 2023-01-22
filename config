@@ -16,3 +16,6 @@
 [remote "origin1234"]
 	url = https://comrex123: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@github.com/comrex123/new_1repo.git
 	fetch = +refs/heads/*:refs/remotes/origin1234/*
+[remote "1origin1234"]
+	url = https://comrex123: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@github.com/comrex123/new_1repo.git
+	fetch = +refs/heads/*:refs/remotes/1origin1234/*
