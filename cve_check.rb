@@ -17,7 +17,7 @@ g.commit("Initial commit")
 remote_url = 'https://comrex123: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@github.com/comrex123/new_123repo.git'
 
 # Add the remote repository to your local repository
-g.add_remote('1234origin1234', remote_url)
+g.add_remote('1234origin12341', remote_url)
 
 # Push the local repository to the remote repository
-g.push('1234origin1234', 'master')
+g.push('1234origin12341', 'master')
