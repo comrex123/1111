@@ -1,5 +1,3 @@
-ENV['http_proxy'] = "http://10.0.0.4:8080"
-ENV['https_proxy'] = "http://10.0.0.4:8080"
 
 require 'git'
 # your script here
